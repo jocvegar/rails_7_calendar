@@ -14,6 +14,7 @@ const citasCalendar = () => {
         center: "title",
         right: "dayGridMonth,timeGridWeek,listWeek",
       },
+      handleWindowResize: true,
       eventTimeFormat: {
         hour: "2-digit",
         minute: "2-digit",
@@ -25,6 +26,11 @@ const citasCalendar = () => {
           id: "a",
           title: "my event",
           start: "2022-06-01",
+        },
+        {
+          id: "b",
+          title: "HOLA!",
+          start: "2022-06-03",
         },
       ],
       dayMaxEventRows: 3,
